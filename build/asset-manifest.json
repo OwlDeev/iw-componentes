@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/iw-componentes/home/static/css/main.79a7dbcd.css",
+    "main.js": "/iw-componentes/home/static/js/main.0de08cf9.js",
+    "static/media/logoBlanco.png": "/iw-componentes/home/static/media/logoBlanco.ac27a9d5ce720eb52d03.png",
+    "index.html": "/iw-componentes/home/index.html",
+    "main.79a7dbcd.css.map": "/iw-componentes/home/static/css/main.79a7dbcd.css.map",
+    "main.0de08cf9.js.map": "/iw-componentes/home/static/js/main.0de08cf9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79a7dbcd.css",
+    "static/js/main.0de08cf9.js"
+  ]
+}
