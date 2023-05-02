@@ -1,7 +1,6 @@
 import React from "react";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Unstable_Grid2";
-// import Button from '@mui/material/Button';
 import "../css/Home.css";
 import Buttons from "../components/Buttons";
 import Typography from "@mui/material/Typography";
