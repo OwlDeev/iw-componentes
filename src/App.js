@@ -24,7 +24,6 @@ export default function App() {
               <Route path="/" element={<Home />} />
               <Route path="/home" element={<Home />} />
               <Route path="https://owldeev.github.io/iw-componentes/" element={<Home />} />
-              <Route path="*" element={<Home />} />
             </Routes>
           </BrowserRouter>
         </Provider>
