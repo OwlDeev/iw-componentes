@@ -14,6 +14,7 @@ import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import logo from '../imgs/logoBlanco.png';
 import '../css/AppBar.css'
+import SettingsIcon from '@mui/icons-material/Settings';
 
 const pages = ["Home", "Pagina1", "Pagina2"];
 const settings = ["Cerrar Sesión"];
@@ -44,7 +45,6 @@ function ResponsiveAppBar() {
             <a href="#">
             <img src={logo} alt="Logo" className="logoImagen"/>
             </a>
-        
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
               size="large"
@@ -115,7 +115,8 @@ function ResponsiveAppBar() {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+                <SettingsIcon className="iconColor"></SettingsIcon>
+                {/* <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" /> */}
               </IconButton>
             </Tooltip>
             <Menu
