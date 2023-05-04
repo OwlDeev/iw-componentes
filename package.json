@@ -1,7 +1,8 @@
 {
-  "homepage": "https://OwlDev.github.io/iw-componentes/Home",
+  "homepage": "https://iw-componente.netlify.app/",
+  "main": "./src/views/Home.jsx",
   "name": "iw-componentes",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.0",
