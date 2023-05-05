@@ -10,23 +10,23 @@ import HourglassEmptyIcon from '@mui/icons-material/HourglassEmpty';
 function Buttons() {
   return (
     <>
-      <Button variant="outlined" startIcon={<DeleteIcon />} className='buttonMargin'>
+      <Button variant="contained" startIcon={<DeleteIcon />} className='buttonMargin'>
         Eliminar
       </Button>
 
-      <Button variant="outlined" startIcon={<ArrowBackIcon />} className='buttonMargin'>
+      <Button variant="contained" startIcon={<ArrowBackIcon />} className='buttonMargin'>
         Volver
       </Button>
 
-      <Button variant="outlined" startIcon={<SaveIcon />} className='buttonMargin'>
+      <Button variant="contained" startIcon={<SaveIcon />} className='buttonMargin'>
         Guardar
       </Button>
 
-      <Button variant="outlined" startIcon={<DoneIcon />} className='buttonMargin'>
+      <Button variant="contained" startIcon={<DoneIcon />} className='buttonMargin'>
         Aceptar
       </Button>
 
-      <Button variant="outlined" startIcon={<HourglassEmptyIcon />} className='buttonMargin'>
+      <Button variant="contained" startIcon={<HourglassEmptyIcon />} className='buttonMargin'>
         Iniciar
       </Button>
     </>

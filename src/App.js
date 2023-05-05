@@ -30,8 +30,9 @@ export default function App() {
 
         <footer className="footer">
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} p={1}>
-            <center>© 2016-2022 Developer OwlDev. All rights reserved.</center>
+            <center>2023 Infinite Wellness© by Eagles Academy.</center>
           </Typography>
+          {/* dejar iconos de linkedin, youtube y wsp */}
         </footer>
       </div>
     </ThemeProvider>

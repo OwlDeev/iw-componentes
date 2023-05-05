@@ -26,6 +26,24 @@
     margin-right: 20px;
 }
 
+.divColorSecundario{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #f0dc6f;
+    margin-right: 20px;
+}
+
+
+.divColorTerciario{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #56d7e8;
+    margin-right: 20px;
+}
+
+
 .divColorPrimarioMain{
     display: flex;
     flex-direction: row;
@@ -41,4 +59,9 @@
 
 .sectionDos{
     margin-top: 0px !important;
+}
+
+.footer{
+    background-color:  #0d6cc6;
+    color: white;
 }

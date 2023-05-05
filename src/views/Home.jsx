@@ -8,6 +8,7 @@ import Table from "../components/Table";
 import Rating from "../components/Rating";
 import RadioButtons from "../components/RadioButtons";
 import TextField from "../components/TextField"
+import Checks from "../components/Checks"
 
 function Home() {
   return (
@@ -23,6 +24,16 @@ function Home() {
                 <div className="divColorPrimario"></div>
                 <Typography variant="h5" gutterBottom>
                   Color Primario
+                </Typography>
+
+                <div className="divColorSecundario"></div>
+                <Typography variant="h5" gutterBottom>
+                  Color Secundario
+                </Typography>
+
+                <div className="divColorTerciario"></div>
+                <Typography variant="h5" gutterBottom>
+                  Color terciario
                 </Typography>
               </div>
 
@@ -67,6 +78,10 @@ function Home() {
 
               <div className="itemInput">
                 <TextField />
+              </div>
+
+              <div className="itemInput">
+                <Checks/>
               </div>
             </div>
           </div>
